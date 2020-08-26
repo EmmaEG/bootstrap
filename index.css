@@ -1,0 +1,72 @@
+#header {
+    background-color: #343a40;
+}
+
+.text-eg {
+    color: #0099ff !important;
+}
+
+.btn-eg {
+    background-color: #0099ff;
+    color: white;
+}
+
+.btn-eg:hover {
+    background-color: #0099ff;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh; /*70 por viewport height o sea el 70% disponible del alto de pantalla*/
+    object-fit: cover; /*1 object-fit */
+    filter: grayscale(70%); /*filtro escala de grises*/
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute; /*para que el overlay se expanda por todo el alto y ancho del carousel*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#speakers img {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+#place {
+    background-color: #343a40;
+    color: white;
+}
+
+#place img {
+    max-width: 100%;
+}
+
+#footer {
+    background: linear-gradient(90deg, #1c3543, #273b47 25%, #1e5372);
+}
+
+#footer a {
+    color: white;
+}
+
+#header img {
+    width: 40px;
+}
+
+html {
+    scroll-padding-top: 67px; /* corregir la posicion del scroll */
+  }
+
